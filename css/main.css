@@ -25,12 +25,6 @@ h2 ~ p {
   max-width: 70%;
   text-align:center;
 }
-
-/* HERO STYLES */
-.full-hero {
-  background-color: #c7dbfc;
-  height: 50vh;
-}
 /* HEADER STYLES */
 .header {
   background-color: #000;
@@ -114,7 +108,11 @@ h2 ~ p {
 .footer-nav a {
   color: #ccc;
 }
-
+/* HERO STYLES */
+.full-hero {
+  background-color: #c7dbfc;
+  height: 50vh;
+}
 /* SOCIAL STYLES */
 .social-link {
   background: rgba(150, 150, 150, 0.5);
@@ -130,18 +128,13 @@ h2 ~ p {
   padding-top: 0.85em;
   text-align: center;
   text-decoration: none;
+  vertical-align: middle;
   width: 2.5em;
-}
-.social-list {
-  list-style: none;
-  padding: 0;
-  text-align: center;
 }
 .social-list > li {
   display: inline-block;
   margin: 0 0.5em
 }
-
 /* BIO STYLES */
 .bio-wrapper {
   font-size: 24px;
@@ -149,21 +142,13 @@ h2 ~ p {
   max-width: 960px;
   overflow: hidden;
 }
-/* .bio-wrapper:after {
-  visibility: hidden;
-  clear: both;
-  display: block;
-  font-size: 0;
-  height: 0;
-  content: " ";
-} */
 .bio-box {
   border: 1px solid black;
   box-sizing: border-box;
   float: left;
   font-size: 1rem;
   margin: 40px 1% 0;
-  padding: 0 2%;
+  padding: 2%;
   width: 23%;
 }
 .bio-box h3 {
